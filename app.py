@@ -14,8 +14,10 @@ from excuteroi import (
 
 app = Flask(__name__)
 CORS(app)
+from pathlib import Path
 
-DATASET_PATH = r"C:\Users\HP\Downloads\archive\Bengaluru_House_Data.csv"
+BASE_DIR = Path(__file__).resolve().parent
+DATASET_PATH = BASE_DIR / "Bengaluru_House_Data.csv"
 
 
 def load_original_data():

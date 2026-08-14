@@ -4,7 +4,10 @@ from area_apprection import give_rate_roi
 import joblib
 from sklearn.preprocessing import LabelEncoder
 import pandas as pd
-df=pd.read_csv(r"C:\Users\HP\Downloads\archive\Bengaluru_House_Data.csv")
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent
+df = pd.read_csv(BASE_DIR / "Bengaluru_House_Data.csv")
 df = df.drop_duplicates()
 
 df = df.drop("society", axis=1)

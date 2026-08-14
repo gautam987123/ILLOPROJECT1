@@ -16,10 +16,10 @@ from database import get_connection
 # 1. LOAD ORIGINAL DATASET
 # =========================================================
 
-df = pd.read_csv(
-    r"C:\Users\HP\Downloads\archive\Bengaluru_House_Data.csv"
-)
+from pathlib import Path
 
+BASE_DIR = Path(__file__).resolve().parent
+df = pd.read_csv(BASE_DIR / "Bengaluru_House_Data.csv")
 print("Original records:", len(df))
 
 
