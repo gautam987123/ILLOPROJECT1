@@ -11,8 +11,7 @@ import house7 from "./assets/house7.jpg";
 import house8 from "./assets/house8.jpg";
 import house9 from "./assets/house9.jpg";
 
-const API_URL = "http://127.0.0.1:5000";
-
+const API_URL = "https://illoproject1.onrender.com";
 const houseImages = [
   house1,
   house2,
