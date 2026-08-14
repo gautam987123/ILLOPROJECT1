@@ -1,5 +1,8 @@
+from pathlib import Path
 import pandas as pd
-df=pd.read_csv(r"C:\Users\HP\Downloads\archive\Bengaluru_House_Data.csv")
+
+BASE_DIR = Path(__file__).resolve().parent
+df = pd.read_csv(BASE_DIR / "Bengaluru_House_Data.csv")
 avg_price=df.groupby('location')['price'].mean()
 number_avail=df.groupby('location').size().sort_values(ascending=False)
 def convert_sqft(x):
