@@ -423,6 +423,26 @@ The production MySQL database is hosted on:
 **Railway**
 
 ---
+## 📸 Screenshots
+
+### Homepage
+
+## 📸 Screenshots
+
+### Homepage
+
+<img width="1261" height="900" alt="image" src="https://github.com/user-attachments/assets/48c84037-6342-4988-b7a4-c2d4bfb87117" />
+
+
+### Property Discovery
+
+<img width="1048" height="806" alt="image" src="https://github.com/user-attachments/assets/5d4a5956-357e-426b-ab0f-f714c4383b5d" />
+
+
+### ML Price & ROI Analysis
+
+<img width="1079" height="884" alt="image" src="https://github.com/user-attachments/assets/3ab29268-4b2e-47cd-92a3-022e71f6a8d3" />
+
 
 ## 🎯 Project Goal
 
